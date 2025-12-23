@@ -24,7 +24,7 @@ const ToolsPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-12 md:mt-0 relative h-[300px] md:h-[500px]">
             <img
-              src="../Assets/Solution/ls.png"
+              src="/assets/solution/ls.png"
               alt="Panda Rocket"
               className="mt-20 w-auto h-full object-contain transform-rotate-12 z-10"
             />
@@ -121,7 +121,7 @@ const ToolsPage: React.FC = () => {
               {/* Target Icon */}
               <div className="absolute -bottom-20 -right-10 md:-right-24 w-40 h-40 md:w-56 md:h-60 z-20 pointer-events-none">
                 <img
-                  src="../Assets/tools/target.png"
+                  src="/assets/tools/target.png"
                   alt="Target"
                   className="w-full h-full object-contain"
                 />
@@ -147,7 +147,7 @@ const ToolsPage: React.FC = () => {
               {/* Notebook Icon */}
               <div className="absolute -top-24 -right-10 md:-right-16 w-32 h-32 md:w-48 md:h-48 z-20 pointer-events-none">
                 <img
-                  src="../Assets/tools/pen.png"
+                  src="/assets/tools/pen.png"
                   alt="Notepad"
                   className="w-full h-full object-contain drop-shadow-2xl transform rotate-12"
                 />
@@ -194,7 +194,7 @@ const ToolsPage: React.FC = () => {
               </div>
               <div className="absolute -bottom-24 -left-10 md:-left-16 w-32 h-32 md:w-40 md:h-40 z-20 pointer-events-none">
                 <img
-                  src="../Assets/tools/analytics.png"
+                  src="/assets/tools/analytics.png"
                   alt="Notepad"
                   className="w-full h-full object-contain"
                 />

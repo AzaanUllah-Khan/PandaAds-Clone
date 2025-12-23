@@ -4,17 +4,17 @@ import { Megaphone, ShoppingBasket, ClipboardCheck } from 'lucide-react';
 
 const benefits: BenefitItem[] = [
   {
-    icon: <img src="../Assets/Home/t1.png" width={'100px'}/>,
+    icon: <img src="/assets/home/t1.png" width={'100px'}/>,
     title: 'Maximise your reach',
     description: 'Amplify your campaign by connecting with your target customers right where they shop'
   },
   {
-    icon: <img src="../Assets/Home/t2.png" width={'100px'}/>,
+    icon: <img src="/assets/home/t2.png" width={'100px'}/>,
     title: 'Engage high-value audiences',
     description: 'Leverage our first-party data and advanced targeting to connect with the right audience'
   },
   {
-    icon: <img src="../Assets/Home/t3.png" width={'100px'}/>,
+    icon: <img src="/assets/home/t3.png" width={'100px'}/>,
     title: 'Get personalised support',
     description: 'Achieve your marketing goals and drive growth with personalised support, insights, and more'
   }

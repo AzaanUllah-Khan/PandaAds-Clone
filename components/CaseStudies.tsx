@@ -6,17 +6,17 @@ const cases: CaseStudyItem[] = [
   {
     brand: 'Coca-Cola',
     title: 'Coca-Cola leveraged retail media channels to boost sales and drive growth',
-    imageSrc: '../Assets/Home/tes1.jpeg'
+    imageSrc: '/assets/home/tes1.jpeg'
   },
   {
     brand: 'Mars Wrigley',
     title: 'Mars Wrigley finds the perfect audience for its new product with panda ads',
-    imageSrc: '../Assets/Home/tes2.jpeg'
+    imageSrc: '/assets/home/tes2.jpeg'
   },
   {
     brand: 'Amazon Prime Video',
     title: 'Amazon Prime Video and foodpanda’s impressive entertainment strategy',
-    imageSrc: '../Assets/Home/tes3.jpeg'
+    imageSrc: '/assets/home/tes3.jpeg'
   }
 ];
 

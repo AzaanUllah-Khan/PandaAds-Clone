@@ -53,7 +53,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage }) => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white py-2' : 'bg-white py-4'}`}>
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         {/* Logo */}
-        <img src="../Assets/Logo.png" className='w-36' alt="" />
+        <img src="/assets/logo.png" className='w-36' alt="" />
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">

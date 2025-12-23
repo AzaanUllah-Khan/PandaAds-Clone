@@ -15,28 +15,28 @@ const tabData: TabContent[] = [
     label: 'Full-page pop-up',
     title: 'Full-page pop-up',
     description: 'Engage foodpanda customers through high-impact, disruptive formats',
-    imageSrc: '../Assets/Solution/c1.png'
+    imageSrc: '/assets/solution/c1.png'
   },
   {
     id: 'carousel',
     label: 'Carousel banner',
     title: 'Carousel banner',
     description: 'Showcase multiple products or promotions in a swipeable format',
-    imageSrc: '../Assets/Solution/c2.png'
+    imageSrc: '/assets/solution/c2.png'
   },
   {
     id: 'upsell',
     label: 'Cart upsell',
     title: 'Cart upsell',
     description: 'Drive incremental sales by suggesting relevant add-ons at checkout',
-    imageSrc: '../Assets/Solution/c3.png'
+    imageSrc: '/assets/solution/c3.png'
   },
   {
     id: 'switch',
     label: 'Payment switch',
     title: 'Payment switch',
     description: 'Influence payment method selection with targeted incentives',
-    imageSrc: '../Assets/Solution/c4.png'
+    imageSrc: '/assets/solution/c4.png'
   }
 ];
 
@@ -70,7 +70,7 @@ const SolutionsPage: React.FC = () => {
             {/* Ad 1 */}
             <div className="flex flex-col items-center text-center group">
               <div className="mb-4 w-full max-w-[350px]">
-                 <img src="../Assets/Solution/t1.png" alt="Homescreen ad" className="w-full h-full object-cover rounded-2xl" />
+                 <img src="/assets/solution/t1.png" alt="Homescreen ad" className="w-full h-full object-cover rounded-2xl" />
               </div>
               <h3 className="text-xl font-bold mb-3">Homescreen ad</h3>
               <p className="text-gray-600 text-sm px-4">
@@ -81,7 +81,7 @@ const SolutionsPage: React.FC = () => {
             {/* Ad 2 */}
             <div className="flex flex-col items-center text-center group">
               <div className="mb-4 w-full max-w-[350px]">
-                 <img src="../Assets/Solution/t2.png" alt="Homescreen ad" className="w-full h-full object-cover rounded-2xl" />
+                 <img src="/assets/solution/t2.png" alt="Homescreen ad" className="w-full h-full object-cover rounded-2xl" />
               </div>
               <h3 className="text-xl font-bold mb-3">Order tracking page ad</h3>
               <p className="text-gray-600 text-sm px-4">
@@ -92,7 +92,7 @@ const SolutionsPage: React.FC = () => {
             {/* Ad 3 */}
             <div className="flex flex-col items-center text-center group">
               <div className="mb-4 w-full max-w-[350px]">
-                 <img src="../Assets/Solution/t3.png" alt="Homescreen ad" className="w-full h-full object-cover rounded-2xl" />
+                 <img src="/assets/solution/t3.png" alt="Homescreen ad" className="w-full h-full object-cover rounded-2xl" />
               </div>
               <h3 className="text-xl font-bold mb-3">Shopping ad</h3>
               <p className="text-gray-600 text-sm px-4">
@@ -159,7 +159,7 @@ const SolutionsPage: React.FC = () => {
              <div className="flex flex-col items-center text-center">
                <div className="h-50 mb-6 flex items-end justify-center">
                   <img 
-                    src="../Assets/Solution/f1.png" 
+                    src="/assets/solution/f1.png" 
                     alt="Marketing Channels" 
                     className="h-full w-full object-contain "
                   />
@@ -174,7 +174,7 @@ const SolutionsPage: React.FC = () => {
              <div className="flex flex-col items-center text-center">
                <div className="h-50 mb-6 flex items-end justify-center">
                   <img 
-                    src="../Assets/Solution/f2.png" 
+                    src="/assets/solution/f2.png" 
                     alt="Rider bag" 
                     className="h-full w-full object-contain "
                   />
@@ -189,7 +189,7 @@ const SolutionsPage: React.FC = () => {
              <div className="flex flex-col items-center text-center">
                <div className="h-50 mb-6 flex items-end justify-center">
                   <img 
-                    src="../Assets/Solution/f3.png" 
+                    src="/assets/solution/f3.png" 
                     alt="Product sampling" 
                     className="h-full w-full object-contain"
                   />
@@ -221,7 +221,7 @@ const SolutionsPage: React.FC = () => {
                     </Button>
                 </div>
                 <div className="w-full md:w-1/2 flex justify-end">
-                    <img src="../Assets/Solution/ls.png" width={'365px'} />
+                    <img src="/assets/solution/ls.png" width={'365px'} />
                 </div>
             </div>
         </div>

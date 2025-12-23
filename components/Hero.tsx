@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       {/* Background Image Area */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="../Assets/Home/hero.webp" 
+          src="/assets/home/hero.webp" 
           alt="Woman eating pizza" 
           className="w-full h-full object-cover object-center"
         />

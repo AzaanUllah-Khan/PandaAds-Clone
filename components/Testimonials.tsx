@@ -6,17 +6,17 @@ const testimonials: TestimonialItem[] = [
     quote: "We were looking for a large APAC-wide partner with premium O&O mobile ad inventory that could connect us to our target audiences. panda ads were able to be that partner and have delivered beyond our campaign's target KPIs. We look forward to expanding our business with them.",
     author: "Luke Addison",
     role: "Managing Director",
-logoSrc: "../Assets/Home/o1.png"  },
+logoSrc: "/assets/home/o1.png"  },
   {
     quote: "As one of the goals from 2023 was to accelerate quick commerce growth through new activations and media, tapping into panda ads helped us grow our quick commerce business and deliver on our KPIs.",
     author: "Jayson Lopez",
     role: "Senior Media and Digital Marketing Manager",
-logoSrc: "../Assets/Home/o2.png"  },
+logoSrc: "/assets/home/o2.png"  },
   {
     quote: "The collaboration with foodpanda through panda ads greatly enhanced our customer acquisition initiatives, by capturing our audience’s interest and fostering heightened user engagement.",
     author: "Jessica Faye Tan",
     role: "Head of Commercial",
-logoSrc: "../Assets/Home/o3.png"  }
+logoSrc: "/assets/home/o3.png"  }
 ];
 
 const Testimonials: React.FC = () => {

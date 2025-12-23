@@ -14,28 +14,28 @@ const studies: StudyProps[] = [
         category: 'CPG | AWARENESS & SALES',
         title: 'Driving growth: Coca-Cola leveraged retail media channels to boost sales',
         description: 'While The Coca-Cola Company has numerous ongoing partnerships with foodpanda in the Philippines, one campaign that really stood out in increasing the brand’s penetration, transactions and sales across online and offline platforms was its #BetterwithCoke campaign on foodpanda.',
-        image: '../Assets/res/tes1.jpeg',
+        image: '/assets/res/tes1.jpeg',
         reverse: false
     },
     {
         category: 'ENTERTAINMENT | ACQUISITION',
         title: 'Amazon Prime Video and foodpanda’s impressive entertainment strategy',
         description: 'We have all experienced the combination of binge watching while munching on our favourite snacks and meals during the holiday season. The entertainment giant decided to jump on board foodpanda’s platform to raise the brand’s visibility in the lives of the local people.',
-        image: '../Assets/res/tes3.jpeg',
+        image: '/assets/res/tes3.jpeg',
         reverse: true
     },
     {
         category: 'CPG | PRODUCT LAUNCH',
         title: 'Mars Wrigley found the perfect audience for its new product with panda ads',
         description: 'Eclipse mints are made by Mars Wrigley, the world’s leading manufacturer of chocolate, chewing gum, mints and fruity confections. When it came to launching a fresh new product in the range in Hong Kong, they knew they needed a fresh and creative solution. That’s where panda ads came in to serve up the right mix of audience targeting and creative media to get consumers buying.',
-        image: '../Assets/res/tes2.jpeg',
+        image: '/assets/res/tes2.jpeg',
         reverse: false
     },
     {
         category: 'SPORTS | BRAND AWARENESS',
         title: 'Under Armour teamed up with panda ads to drive awareness and brand love',
         description: 'Under Armour partnered with panda ads for a situational marketing campaign that took full advantage of the excitement of one of the world’s most-watched sporting events through a full-funnel approach that maximised brand visibility, fan buzz, and connections with audiences at key moments.',
-        image: '../Assets/res/tes4.jpg',
+        image: '/assets/res/tes4.jpg',
         reverse: true
     }
 ];
