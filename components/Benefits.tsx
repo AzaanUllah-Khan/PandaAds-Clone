@@ -4,17 +4,17 @@ import { Megaphone, ShoppingBasket, ClipboardCheck } from 'lucide-react';
 
 const benefits: BenefitItem[] = [
   {
-    icon: <Megaphone className="w-12 h-12 text-panda-pink" strokeWidth={1.5} />,
+    icon: <img src="../Assets/Home/t1.png" width={'100px'}/>,
     title: 'Maximise your reach',
     description: 'Amplify your campaign by connecting with your target customers right where they shop'
   },
   {
-    icon: <ShoppingBasket className="w-12 h-12 text-panda-pink" strokeWidth={1.5} />,
+    icon: <img src="../Assets/Home/t2.png" width={'100px'}/>,
     title: 'Engage high-value audiences',
     description: 'Leverage our first-party data and advanced targeting to connect with the right audience'
   },
   {
-    icon: <ClipboardCheck className="w-12 h-12 text-panda-pink" strokeWidth={1.5} />,
+    icon: <img src="../Assets/Home/t3.png" width={'100px'}/>,
     title: 'Get personalised support',
     description: 'Achieve your marketing goals and drive growth with personalised support, insights, and more'
   }
@@ -36,7 +36,7 @@ const Benefits: React.FC = () => {
                 <div className="absolute -inset-4 bg-pink-100 rounded-full opacity-50 blur-lg"></div>
                 <div className="relative">
                      {/* Custom icon styling to match the playful illustrative style */}
-                     <div className="bg-white p-4 rounded-2xl shadow-sm border border-pink-100">
+                     <div>
                         {benefit.icon}
                      </div>
                 </div>

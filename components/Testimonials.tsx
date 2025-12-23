@@ -6,20 +6,17 @@ const testimonials: TestimonialItem[] = [
     quote: "We were looking for a large APAC-wide partner with premium O&O mobile ad inventory that could connect us to our target audiences. panda ads were able to be that partner and have delivered beyond our campaign's target KPIs. We look forward to expanding our business with them.",
     author: "Luke Addison",
     role: "Managing Director",
-    logoSrc: "https://placehold.co/150x40/transparent/1F1F1F?text=eGENTIC"
-  },
+logoSrc: "../Assets/Home/o1.png"  },
   {
     quote: "As one of the goals from 2023 was to accelerate quick commerce growth through new activations and media, tapping into panda ads helped us grow our quick commerce business and deliver on our KPIs.",
     author: "Jayson Lopez",
     role: "Senior Media and Digital Marketing Manager",
-    logoSrc: "https://placehold.co/150x40/transparent/d70f64?text=UR+Universal+Robina"
-  },
+logoSrc: "../Assets/Home/o2.png"  },
   {
     quote: "The collaboration with foodpanda through panda ads greatly enhanced our customer acquisition initiatives, by capturing our audience’s interest and fostering heightened user engagement.",
     author: "Jessica Faye Tan",
     role: "Head of Commercial",
-    logoSrc: "https://placehold.co/150x40/transparent/22c55e?text=Moneymax"
-  }
+logoSrc: "../Assets/Home/o3.png"  }
 ];
 
 const Testimonials: React.FC = () => {
@@ -36,7 +33,7 @@ const Testimonials: React.FC = () => {
               <p className="text-gray-700 italic leading-relaxed mb-6 font-medium text-sm md:text-base">
                 "{item.quote}"
               </p>
-              <div className="mt-auto">
+              <div>
                 <h4 className="font-bold text-black">{item.author}</h4>
                 <p className="text-sm text-gray-500 mb-4">{item.role}</p>
                 <div className="flex justify-center mt-4">
