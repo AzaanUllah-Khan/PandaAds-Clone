@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import { Linkedin, ArrowUp } from 'lucide-react';
+import { Linkedin, ArrowUp, Link } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             {/* Column 1 */}
             <div className="flex flex-col gap-4">
               <h4 className="font-bold text-white mb-2">Our company</h4>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">About foodpanda</a>
+              <a href="https://foodpanda-azaan.vercel.app/#/about" className="text-gray-400 hover:text-white text-sm transition-colors">About foodpanda</a>
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy policy</a>
             </div>
 
