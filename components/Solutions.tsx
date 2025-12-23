@@ -6,25 +6,25 @@ const solutions: SolutionItem[] = [
   {
     title: 'In-app advertising',
     description: 'Increase brand visibility with native display ads across different categories on the foodpanda app',
-    imageSrc: '/assets/Home/s1.png',
+    imageSrc: '/assets/home/s1.png',
     reverse: false
   },
   {
     title: 'Off-app advertising',
     description: 'Amplify your campaigns with foodpanda, from email marketing and social media to rider bag ads and product sampling',
-    imageSrc: '/assets/Home/s2.png',
+    imageSrc: '/assets/home/s2.png',
     reverse: true
   },
   {
     title: 'Strategic partnerships',
     description: 'Execute integrated campaigns for maximum impact, with tailored solutions like vouchers, data partnerships and consumer insights',
-    imageSrc: '/assets/Home/s3.png',
+    imageSrc: '/assets/home/s3.png',
     reverse: false
   },
   {
     title: 'Go beyond basic targeting with panda ads',
     description: 'Maximise your ROI and connect with a broader, more relevant audience through precise targeting powered by our first-party data.',
-    imageSrc: '/assets/Home/s4.png',
+    imageSrc: '/assets/home/s4.png',
     reverse: true
   }
 ];
